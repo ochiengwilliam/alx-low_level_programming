@@ -1,11 +1,11 @@
-# include <stdio.h>
+#include <stdio.h>
 /**
- *main - beginning of program
- *
- *Description: prints all single digit numbers separated by commas
- *
- *Return: 0
- */
+*main - beginning of program  
+*
+*Description: prints all single digit numbers separated by commas
+*
+*Return: 0
+*/
 int main(void)
 {
 int n;
