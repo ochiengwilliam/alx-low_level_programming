@@ -1,31 +1,66 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
 
-/**
-* main - Prints if number is positive, zero or negative
-*
-* Return: Always (Success)
- */
-int main(void)
-{
-README.md int n;
+ 
 
-README.md srand(time(0));
-README.md n = rand() - RAND_MAX / 2;
+#include <stdlib.h> 
 
-README.md if (n > 0)
-README.md {
-README.md README.md printf(%d is positiven, n);
-README.md }
-README.md else if (n == 0)
-README.md {
-README.md README.md printf(%d is zeron, n);
-README.md }
-README.md else
-README.md {
-README.md README.md printf(%d is negativen, n);
-README.md }
+#include <time.h> 
 
-README.md return (0);
-}
+#include <stdio.h> 
+
+ 
+
+/** 
+
+* main - Prints if number is positive, zero or negative 
+
+* 
+
+* Return: Always (Success) 
+
+*/ 
+
+int main(void) 
+
+{ 
+
+nt n; 
+
+ 
+
+srand(time(0)); 
+
+n = rand() - RAND_MAX / 2; 
+
+ 
+
+if (n > 0) 
+
+{ 
+
+printf(%d is positiven, n); 
+
+} 
+
+else if (n == 0) 
+
+{ 
+
+printf(%d is zeron, n); 
+
+} 
+
+else 
+
+{ 
+
+printf(%d is negativen, n); 
+
+} 
+
+ 
+
+return (0); 
+
+} 
+
+
