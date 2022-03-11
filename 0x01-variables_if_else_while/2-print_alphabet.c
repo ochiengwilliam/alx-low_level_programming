@@ -1,11 +1,11 @@
 # include <stdio.h>
 /**
- *main - beginning of program
- *
- *Description: prints the alphabet followed by a blank line
- *
- *Return: 0
- */
+*main - beginning of program
+*
+*Description: prints the alphabet followed by a blank line
+*
+*Return: 0
+*/
 int main(void)
 {
 char abc;
