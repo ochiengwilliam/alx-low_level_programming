@@ -16,15 +16,15 @@ README.md n = rand() - RAND_MAX / 2;
 
 README.md if (n > 0)
 README.md {
-README.md README.md printf("%d is positive\n", n);
+README.md README.md printf(%d is positiven, n);
 README.md }
 README.md else if (n == 0)
 README.md {
-README.md README.md printf("%d is zero\n", n);
+README.md README.md printf(%d is zeron, n);
 README.md }
 README.md else
 README.md {
-README.md README.md printf("%d is negative\n", n);
+README.md README.md printf(%d is negativen, n);
 README.md }
 
 README.md return (0);
