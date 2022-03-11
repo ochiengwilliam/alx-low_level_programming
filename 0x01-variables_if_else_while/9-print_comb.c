@@ -1,15 +1,23 @@
 #include <stdio.h>
+
+/**
+ *main - beginning of program
+ *
+ *Description: prints the alphabet followed by a blank line
+ *
+ *Return: 0
+ */
 int main(void)
 {
-int n;
-for (n = 0; n < 10; n++)
+char abc;
+
+for (abc = a; abc <= z; abc++)
 {
-putchar((n % 10) + 0);
-if (n < 9)
-{
-putchar(,);
-putchar( );
+putchar(abc);
 }
+for (abc = A; abc <= Z; abc++)
+{
+putchar(abc);
 }
 putchar(n);
 return (0);
