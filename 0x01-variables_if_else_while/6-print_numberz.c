@@ -1,4 +1,5 @@
-#include<stdio.h>
+# include <stdio.h>
+
 /**
  *main - beginning of program
  *
@@ -9,6 +10,7 @@
 int main(void)
 {
 int n;
+
 for (n = 0; n < 10; n++)
 {
 putchar((n % 10) + 0);
