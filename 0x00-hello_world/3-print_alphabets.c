@@ -9,7 +9,7 @@ int main(void)
 char alpha;
 char bet;
 
-for (alpha = a ; alpha <= z ; alpha++) 
+for (alpha = a ; alpha <= z ; alpha++)
 {
 putchar(alpha);
 }
@@ -20,4 +20,3 @@ putchar(bet);
 putchar(n);
 return (0);
 }
-
