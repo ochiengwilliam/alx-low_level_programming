@@ -1,17 +1,17 @@
-# include <stdio.h>
+
+#include <stdio.h>
 /**
-*main - beginning of program
-*
-*Description: prints the alphabet followed by a blank line
-*
-*Return: 0
-*/
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-char abc;
-for (abc = a; abc <= z; abc++)
+char c = a;
+while (c <= z)
 {
-putchar(abc);
+putchar(c);
+c++;
 }
 putchar(n);
 return (0);
