@@ -1,24 +1,23 @@
-#include<stdio.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
 /**
-*main - beginning of program
-*
-*Description: prints number base 16 followed by a blank line
-*
-*Return: 0
-*/
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+
 int main(void)
 {
-char n;
-char a;
-for (n = 0; n <= 9; n++)
-{
-putchar(n);
-}
-for (a = a; a <= f; a++)
-{
-putchar(a);
-}
-putchar(n);
-return (0);
-}
+  int d;
+  char low;
 
+  for (d = '0'; d <= '9'; d++)
+    putchar(d);
+  for (low = 'a'; low <= 'f'; low++)
+    putchar(low);
+  putchar('\n');
+
+  return (0);
+}
