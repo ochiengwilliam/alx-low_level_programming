@@ -1,33 +1,35 @@
-# include <stdio.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /**
- *main - beginning of program
- *
- *Description: prints the digits from 00 to 99 separated by commas
- *
- *Return: 0
- */
+* main - Entry point
+*
+* Return: Always 0 (Success)
+*/
+
 int main(void)
 {
-int n1;
-int n2;
+int d, p;
 
-for (n1 = 0; n1 < 10; n1++)
+for (d = '0'; d < '9'; d++)
 {
-for (n2 = 0; n2 < 10; n2++)
+for (p = d + 1; p <= '9'; p++)
 {
-if (n1 != n2 && n1 < n2)
+if (p != d)
 {
-putchar((n1 % 10) + 0);
-putchar((n2 % 10) + 0);
-if (n1 != 8 || n2 != 9)
-{
-putchar(,);
-putchar( );
+putchar(d);
+putchar(p);
+
+if (d == '8' && p == '9')
+continue;
+
+putchar(',');
+putchar(' ');
 }
 }
 }
-}
-putchar(n);
+putchar('\n');
+
 return (0);
 }
