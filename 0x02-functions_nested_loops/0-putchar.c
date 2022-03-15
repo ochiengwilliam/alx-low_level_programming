@@ -1,24 +1,13 @@
 #include "main.h"
 
 /**
-* main - entry point
-*
-* Description: Prints Holberton with _putchar
-*
-* Return: always 0
-*/
-
-int main(void)
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
+ */
+int _putchar(char c)
 {
-int i = 0;
-char c;
-char s[] = "_putchar\n";
-
-while (i <= 9)
-{
-c = s[i];
-_putchar(c);
-i++;
-}
-return (0);
+  return (write(1, &c, 1));
 }
