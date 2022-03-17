@@ -5,21 +5,21 @@
 * @n : The user inputu
 * Return: Void.
 */
-void print_square(int n)
+void print_square(int size)
 {
 int x;
 int y;
   
-for (y = 0; y < n; y++)
+for (y = 0; y < size; y++)
 {
-for (x = 0; x < n; x++)
+for (x = 0; x < size; x++)
 {
-putchar('#');
+_putchar('#');
 }
-putchar('\n');
+_putchar('\n');
 }
 if (n <= 0)
 {
-putchar('\n');
+_putchar('\n');
 }
 }
