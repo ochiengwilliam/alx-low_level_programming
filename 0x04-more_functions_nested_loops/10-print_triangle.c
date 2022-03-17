@@ -1,7 +1,6 @@
 #include "main.h"
-
 /**
-* print_triangle - Print triangle dependent on the parameter size.
+* print_triangle - Print triangle dependent on the parameter size
 * @size : The height of the triangle
 * Return: Void.
 */
