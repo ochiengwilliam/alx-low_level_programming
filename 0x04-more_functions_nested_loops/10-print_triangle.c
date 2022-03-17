@@ -1,5 +1,4 @@
-#
-include "main.h"
+#include "main.h"
 
 /**
 * print_triangle - Print triangle dependent on the parameter size.
