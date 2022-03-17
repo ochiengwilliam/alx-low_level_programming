@@ -1,24 +1,23 @@
 #include "main.h"
-
 /**
 * print_square - Print square using # based on input.
 * @n : The user inputu
 * Return: Void.
 */
-void print_square(int size)
+void print_square(int n)
 {
 int x;
 int y;
   
-for (y = 0; y < size; y++)
+for (y = 0; y < n; y++)
 {
-for (x = 0; x < size; x++)
+for (x = 0; x < n; x++)
 {
 _putchar('#');
 }
 _putchar('\n');
 }
-if (size <= 0)
+if (n <= 0)
 {
 _putchar('\n');
 }
