@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
 * print_square - Print square using # based on input.
 * @n : The user inputu
