@@ -1,7 +1,7 @@
+#include <ctype.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <ctype.h>
 /**
 * main - prints the minimum number of coins
 * to make change for an amount of money
@@ -47,6 +47,7 @@ value = value % 2;
 if (value % 1 >= 0)
 {
 c += value / 1;
+}
 printf("%d\n", c);
 return (0);
 }
