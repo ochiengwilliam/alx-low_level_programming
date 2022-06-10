@@ -13,3 +13,5 @@ while (head)
 x += head->n;
 head = head->next;
 }
+return (x);
+}
